@@ -1,4 +1,4 @@
-stride	median_time_ns	latency_ns_per_element
+stride	median_time_ns	latency_ns
 1	1210713416	72.16414308547974
 2	600620708	71.59956789016724
 4	299569542	71.42294454574585
