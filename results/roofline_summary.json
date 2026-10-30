@@ -1,0 +1,17 @@
+{
+    "cpu": "Apple M2",
+    "N": 1088,
+    "iterations": 10,
+    "flops_per_cell": 5,
+    "bytes_per_cell_assumed": 48,
+    "arithmetic_intensity": 0.10416666666666667,
+    "arithmetic_intensity_units": "FLOP/byte",
+    "strong_scaling": {
+        "serial_fraction_estimate": 0.9421724711173773,
+        "amdahl_max_speedup": 1.0613767974074233
+    },
+    "peak_memory_bandwidth_gb_s": null,
+    "peak_compute_gflops": null,
+    "roofline_regime": "undetermined",
+    "note": "Peak compute and memory bandwidth are needed for a verified Roofline classification. DRAM traffic is approximated."
+}
