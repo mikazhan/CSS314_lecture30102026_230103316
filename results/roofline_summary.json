@@ -5,6 +5,8 @@
     "flops_per_cell": 5,
     "bytes_per_cell_assumed": 48,
     "arithmetic_intensity": 0.10416666666666667,
+    "regime": "memory-bound",
+    "classification_basis": "Estimated low arithmetic intensity of 0.1042 FLOP/byte; classification is provisional.",
     "arithmetic_intensity_units": "FLOP/byte",
     "strong_scaling": {
         "serial_fraction_estimate": 0.9421724711173773,

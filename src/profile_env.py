@@ -13,13 +13,13 @@ l2 = subprocess.check_output(["sysctl", "-n", "hw.l2cachesize"], text=True).stri
 cache_line = subprocess.check_output(["sysctl", "-n", "hw.cachelinesize"], text=True).strip()
 
 profile = {
-    "cpu": cpu,
+    "cpu_model": cpu,
     "physical_cores": int(physical),
-    "logical_cores": int(logical),
+    "logical_threads": int(logical),
     "l1_cache": int(l1),
     "l2_cache": int(l2),
     "l3_cache": None,
-    "cache_line": int(cache_line),
+    "cache_line_bytes": int(cache_line),
     "os": platform.platform(),
     "kernel": platform.release(),
     "architecture": platform.machine(),
